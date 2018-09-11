@@ -1,0 +1,16 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2017
+  },
+  "rules": {
+    "import/prefer-default-export": 0,
+    "eol-last": 0,
+    "comma-dangle": 0,
+    "global-require": 0
+  }
+}
